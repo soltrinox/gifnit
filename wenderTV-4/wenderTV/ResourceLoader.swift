@@ -47,7 +47,8 @@ import JavaScriptCore
   
   func urlForResource(name: String) -> String {
     
-    print("There was a problem" + name)
-    return NSBundle.mainBundle().URLForResource(name, withExtension: nil)!.absoluteString
+    print("URL NAME: " + name)
+    return name
+    //NSBundle.mainBundle().URLForResource(name, withExtension: nil)!.absoluteString
   }
 }

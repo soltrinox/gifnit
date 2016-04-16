@@ -71,7 +71,7 @@ function _createAlert(title, description) {
   var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
     <document>
       <alertTemplate>
-        <title>${title}</title>
+//        <title>${title}</title>
         <description>${description}</description>
       </alertTemplate>
     </document>`
@@ -91,7 +91,7 @@ function _handleEvent(event) {
       // 3:
       var data = {
         text: sender.textContent,
-        title: sender.getAttribute("title")
+//        title: sender.getAttribute("title")
       };
       // 4:
       var expandedText = resourceLoader

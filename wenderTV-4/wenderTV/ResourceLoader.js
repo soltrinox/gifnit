@@ -37,6 +37,7 @@ class ResourceLoaderJS {
   }
   
   urlForResource(name) {
+      
     return this.nativeResourceLoader.urlForResource(name);
   }
 
@@ -57,7 +58,8 @@ class ResourceLoaderJS {
   convertNamesToURLs(data) {
     var convertedData = {};
     for (var prop in data) {
-      convertedData[prop] = this.urlForResource(data[prop]);
+//      convertedData[prop] = this.urlForResource(data[prop]);
+        convertedData[prop] = data[prop];
     }
     return convertedData;
   }

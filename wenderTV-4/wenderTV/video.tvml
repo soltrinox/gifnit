@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <document>
     <productTemplate theme="light" margin="20">
-            <grid margin="20">
+            <grid margin="20"  >
                 <header>
                     <title>Grid</title>
                 </header>
-                <section margin="20">
+                <section margin="20" >
                     {{#recommendations}}
-                    <lockup margin="50" >
+                    <lockup margin="50">
                         <img src="{{image}}" width="220" height="220" />
-                        
-                        
-                        <title>{{title}}</title>
+<!--                        <asset id="123" src="{{image}}"   width="220" height="220" />-->
+
+<!--                        <title>{{title}}</title>-->
                     </lockup>
                     {{/recommendations}}
                 </section>
