@@ -1,16 +1,86 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <document>
+    <productTemplate theme="dark">
+        <banner>
+            <infoList>
+                <info>
+                    <header>
+                        <title>Presenter</title>
+                    </header>
+                    <text>{{presenter}}</text>
+                </info>
+                <info>
+                    <header>
+                        <title>Tags</title>
+                    </header>
+                    {{#tags}}
+                    <text>{{.}}</text>
+                    {{/tags}}s
+                </info>
+            </infoList>
+            <stack>
+                <title>{{title}}</title>
+                <row>
+                    <text>{{duration}}</text>
+                    <text>{{category}}</text>
+                    <text>{{year}}</text>
+                    <badge src="resource://{{rating}}" />
+                    {{#closed-captions}}
+                    <badge src="resource://cc" />
+                    {{/closed-captions}}
+                    {{#hd}}
+                    <badge src="resource://hd" />
+                    {{/hd}}
+                </row>
+                <description allowsZooming="true"
+                    moreLabel="more"
+                    action="showOverflow"
+                    title="{{title}}">{{description}}</description>
+                <text>{{language}}</text>
+
+            </stack>
+            <heroImg src="{{images.hero}}" />
+        </banner>
+        
+        <shelf>
+
+            <section>
+                {{#recommendations}}
+                <lockup>
+                    <img src="{{image}}" width="220" height="220" />
+                    <title>{{title}}</title>
+                </lockup>
+                {{/recommendations}}
+            </section>
+        </shelf>
+        
+        <shelf>
+
+<section>
+    {{#recommendations}}
+    <lockup>
+        <img src="{{image}}" width="220" height="220" />
+        <title>{{title}}</title>
+    </lockup>
+    {{/recommendations}}
+</section>
+ndations}}
+</section>
+        </shelf>
+        
+    </productTemplate>
+</document>
+
+<!--
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+
 <collectionList>
 <grid>
 <section>
 
     <listItemLockup>
-       <img width="220" height="220"/>
-
-       <decorationImage src="{{image}}" />
-       <row>
-
-       </row>
+        
     </listItemLockup>
 
 
@@ -19,3 +89,4 @@
 </collectionList>
 
 </document>
+-->

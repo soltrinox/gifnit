@@ -11,6 +11,10 @@
   "description": "MolecularLightningQuiz is a game played with 2-8 people where the players compete to answer more quiz questions. With fun gifs as the answers and a wide seleciton of questions the results can be any number of results. Best played with large groups MolecularLightningQuiz will keep you sharp and provides the perfect entertainment for any group.",
     "recommendations": [
                         { "title": "Classic", "image": "Classic.png"},
+                        { "title": "Arcade", "image": "lightning.png"},
+                        { "title": "Classic", "image": "Classic.png"},
+                        { "title": "Arcade", "image": "lightning.png"},
+                        { "title": "Classic", "image": "Classic.png"},
                         { "title": "Arcade", "image": "lightning.png"}
                         ],
   "ratings-reviews": {
@@ -39,17 +43,5 @@
         "date": "April 15, 2015"
       }
     ]
-  },
-  "people": [
-    {
-      "firstname": "Nathan",
-      "lastname": "Mueller",
-      "role": "Developer/Founder"
-    },
-    {
-      "firstname": "Dee",
-      "lastname": "Pei",
-      "role": "Developer/Founder"
-    }
-  ]
+  }
 }
