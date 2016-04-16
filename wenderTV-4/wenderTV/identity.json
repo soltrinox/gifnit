@@ -6,16 +6,30 @@
   "category": "Games",
   "year": "2016",
   "images": {
-    "hero": "talk-vicki-wenderlich-identity.png"
+    "hero": "Classic.png"
   },
   "description": "MolecularLightningQuiz is a game played with 2-8 people where the players compete to answer more quiz questions. With fun gifs as the answers and a wide seleciton of questions the results can be any number of results. Best played with large groups MolecularLightningQuiz will keep you sharp and provides the perfect entertainment for any group.",
     "recommendations": [
-                        { "title": "Classic", "image": "Classic.png"},
-                        { "title": "Arcade", "image": "lightning.png"},
-                        { "title": "Classic", "image": "Classic.png"},
-                        { "title": "Arcade", "image": "lightning.png"},
-                        { "title": "Classic", "image": "Classic.png"},
-                        { "title": "Arcade", "image": "lightning.png"}
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"},
+                        { "title": "Classic", "image": "http://media.riffsy.com/images/ed8cf447392c5e7e0cc16cbad2a0edce/raw"}
+                        
                         ],
   "ratings-reviews": {
     "rw-ratings": {
