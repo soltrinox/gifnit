@@ -1,0 +1,55 @@
+{
+  "title": "MolecularLightningQuiz",
+  "tags": ["equality", "twins"],
+  "duration": "17m 36s",
+  "studio": "Doesn't Matter Studios",
+  "category": "Games",
+  "year": "2016",
+  "images": {
+    "hero": "talk-vicki-wenderlich-identity.png"
+  },
+  "description": "MolecularLightningQuiz is a game played with 2-8 people where the players compete to answer more quiz questions. With fun gifs as the answers and a wide seleciton of questions the results can be any number of results. Best played with large groups MolecularLightningQuiz will keep you sharp and provides the perfect entertainment for any group.",
+    "recommendations": [
+                        { "title": "Classic", "image": "Classic.png"},
+                        { "title": "Arcade", "image": "lightning.png"}
+                        ],
+  "ratings-reviews": {
+    "rw-ratings": {
+      "out-of-five": 4.6,
+      "badge-value": 0.8,
+      "count": 46
+    },
+    "rockrater": {
+      "rock": 89,
+      "ballard": 11,
+      "total": 100,
+      "percentage": 0.89 
+    },
+    "reviews": [
+      {
+        "title": "Zombie Review",
+        "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "name": "B. Sucker",
+        "date": "March 31, 2015"
+      },
+      {
+        "title": "Meaty Review",
+        "description": "Bacon ipsum dolor amet jowl pork flank officia pastrami hamburger prosciutto sed cillum kielbasa. Kielbasa boudin jowl rump magna eiusmod, swine ham deserunt ham hock shankle brisket commodo velit alcatra.",
+        "name": "Bacon Grease",
+        "date": "April 15, 2015"
+      }
+    ]
+  },
+  "people": [
+    {
+      "firstname": "Nathan",
+      "lastname": "Mueller",
+      "role": "Developer/Founder"
+    },
+    {
+      "firstname": "Dee",
+      "lastname": "Pei",
+      "role": "Developer/Founder"
+    }
+  ]
+}

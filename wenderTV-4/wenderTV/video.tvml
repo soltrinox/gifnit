@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<collectionList>
+<grid>
+<section>
+
+    <listItemLockup>
+       <img width="220" height="220"/>
+
+       <decorationImage src="{{image}}" />
+       <row>
+
+       </row>
+    </listItemLockup>
+
+
+</section>
+</grid>
+</collectionList>
+
+</document>
