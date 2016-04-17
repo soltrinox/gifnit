@@ -3,9 +3,9 @@ var gridObjects = 20;
 var chosenTags = [];
 var maxUnique = 3;
 var termsMaster = ["Happy", "Sad", "Sexy", "Fruit","Bacon","Scared", "Rejection","Surprised","Long Day", "Tired", "Curiosity","Panic", "Attraction", "Disgust", "Rage", "Love"];
-var huntGame = "True";
+var huntGame = true;
 var huntedTag;
-var pairsGame = "False";
+var pairsGame = false;
 
 generateGrid = function () {
 
@@ -25,7 +25,9 @@ generateGrid = function () {
             temp.generateVideo();
         }
 		//Grab a random video and transform it into the hunted video.
-			gridObjects[Math.random()*gridObjects.length].video.s
+		var huntedVideo = Math.random()*gridObjects.length;
+			huntedVideo.tag = HuntGameTypeTag(chosenTags,termsMaster);
+			huntedVideo.video.src = randomize(huntedTag);
     }
 
 
